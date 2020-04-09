@@ -30,12 +30,9 @@ p  {
 img{
     width: 50%;
     height: 50%;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+    
+       
     }
-
-
 
 h2 {
     font-style: normal;
@@ -55,16 +52,21 @@ label{
     }
 
 /* ---------- helpers ------------- */
-.logo {
+
+#container {
     width: 100%;
-      }
+    height: 100%;
+    border: solid green;
+}
 
 .logo img {
     width: 40%;
     height: 40%;
+    display: block;
     position: absolute;
-    left: 600px;
     top: 10px;
+    left: 600px;
+    border: solid;
     }
 /*punto 4 ----*/
 .article-hotel article {
