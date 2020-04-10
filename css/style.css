@@ -64,6 +64,7 @@ label{
     width: 5%;
     height: 5%;
     display: inline;
+    margin:auto auto;
     }
 
 /*punto 4 ----*/
@@ -144,7 +145,7 @@ header {
     width: 100%;
     height: 100%;
     margin: auto auto;
-    border: solid yellowgreen;
+    border: solid;
     }
 .reserva form {
     text-align : center;
@@ -155,13 +156,13 @@ header {
     right: 10px;
     border: solid blue;
     display: inline-block;    
-}
+       }
 
 .div-contacto{
     width: 100%;
     height: 50%;
     border: solid green;
-}
+       }
 
 .div-contacto img{
     height: 200px;
