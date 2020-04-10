@@ -61,7 +61,8 @@ label{
     width: 5%;
     height: 5%;
     display: inline;
-    margin:auto 2%;
+    margin-left:18%;
+    margin-right: 6% ;
     }
 /*punto 4 ----*/
 .article-hotel article {
@@ -233,7 +234,7 @@ header {
 
 .contenedor {
     width:80%;
-    max-width: 800px;
+    
     margin:0 auto;
     overflow: hidden;
    
