@@ -127,7 +127,7 @@ label{
     text-align: center;
     }
 /*----------layouts-----------------*/
-footer {
+.aside {
     width: 40%;
     height: 40%;
     display: inline-block;
