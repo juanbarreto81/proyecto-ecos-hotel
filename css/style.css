@@ -61,16 +61,17 @@ label{
     width: 5%;
     height: 5%;
     display: inline;
-    margin:auto auto;
+    margin:auto 2%;
     }
 /*punto 4 ----*/
 .article-hotel article {
-    width:50%;
+    width:40%;
     height: 200px;
     display: inline-block;
-    margin: auto auto;
+    margin-left: 30%;
 	border:solid 5px rgb(29, 163, 96);
     overflow-y: scroll;
+    
     }
 /*max width*/
 .menu h1 {
@@ -136,8 +137,7 @@ label{
 .aside {
     width: 100%;
     height: 100%;
-    border: solid blue;
-      
+       
     }
 .div-contacto{
     width: 100%;
@@ -149,9 +149,12 @@ label{
     height: 10%;
     width:  10%;
     display: inline-block;
-    border:solid;
     padding-bottom: 0%;
      }
+.div-contacto a{
+    background-color: blue;
+    color: coral;
+}
 .div-links{
     width: 100%;
     height: 100%;
@@ -229,16 +232,11 @@ header {
     height: 100%;
     margin: auto auto;
     padding-bottom: 0px;
-    border: solid;
+    
     }
 
-    #section-1 img {
-    width: 20%;
-    height: 20%;
-    display: inline-block;
-    }
 .contenedor {
-    width:80%;
+    width:100%;
     max-width: 1000px;
     margin:0 auto;
     overflow: hidden;
