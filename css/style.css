@@ -237,3 +237,10 @@ header {
     height: 20%;
     display: inline-block;
     }
+.contenedor {
+    width:80%;
+    max-width: 1000px;
+    margin:0 auto;
+    overflow: hidden;
+   
+}
