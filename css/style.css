@@ -53,21 +53,19 @@ label{
 
 /* ---------- helpers ------------- */
 
-#container {
-    width: 100%;
-    height: 100%;
-    border: solid green;
-}
-
-.logo img {
-    width: 40%;
-    height: 40%;
+.logo a img {
+    width: 10%;
+    height: 10%;
     display: block;
-    position: absolute;
-    top: 10px;
-    left: 600px;
+    margin: auto auto;
     border: solid;
     }
+.div-idioma img {
+    width: 5%;
+    height: 5%;
+    display: inline;
+    }
+
 /*punto 4 ----*/
 .article-hotel article {
     width:50%;
@@ -90,15 +88,8 @@ label{
     box-shadow: 10px 10px 3px;
     }
 
-.div-idioma img {
-    width: 5%;
-    height: 5%;
-    display: inline;
-    }
-.logo {
-    width: 50%;
-    height: 50%;
-    }
+
+
 .menu nav ul  {        
      
     text-transform: uppercase;
@@ -150,9 +141,10 @@ label{
 
 /*----------layouts-----------------*/
 header {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     margin: auto auto;
+    border: solid yellowgreen;
     }
 .reserva form {
     text-align : center;
@@ -178,13 +170,10 @@ header {
          
 }
 
-.div-contacto a{
-    text-align: center;
-    margin-left: 5px;
-    margin-left: 10px;
-}
-.links {
-    width: 100%;
+
+.div-links a{
+    margin-right: 60px;
+    margin-left: 45px;
     border: solid yellow;
 }
 /*punto 5.2 agregado sombras y bordes redondeados*/
@@ -244,13 +233,12 @@ nav {
 
 /* ---------- pages/sections ------------- */
 /*punto 5.1 agregado de imagen de fondo al header*/
-.div-idioma{
+header {
     background-image:url("../images/section_1_hotel.jpg");
     background-repeat: no-repeat;
     background-position: center center;
-    width: 60%;
-    height: 100vh;
-    background-size: cover;
+    width: 100%;
+    height: 100%;
     margin: auto auto;
     padding-bottom: 0px;
     border: solid;
