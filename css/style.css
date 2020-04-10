@@ -1,5 +1,4 @@
 /* punto 2-- fuente personalizada practico css2*/
-
 @font-face {
     font-family: 'Josefin Sans', sans-serif;
     src: url("../fonts/JosefinSans-Italic-VariableFont_wght") format("wght"),
@@ -15,12 +14,10 @@ body{
     line-height: 1.5;
     font-size: x-large;
     }
-     
 /*punto 3----sacado de puntitos al menu*/
 ul {
     list-style: none;
     }
-
 p  {
     font-size: x-large;
     font-weight: bold;
@@ -54,8 +51,10 @@ label{
 .logo a img {
     width: 30%;
     height: 30%;
+    border: solid;
     display: block;
     margin: auto auto;
+   
     }
 .div-idioma img {
     width: 5%;
@@ -72,7 +71,6 @@ label{
     margin-left: 30%;
 	border:solid 5px rgb(29, 163, 96);
     overflow-y: scroll;
-    
     }
 /*max width*/
 .menu h1 {
@@ -93,7 +91,7 @@ label{
     display: inline;
     }
     /*-------punto 3 cambio de color a los vinculos----------*/     
-    .menu nav ul li a { 
+.menu nav ul li a { 
     font-style: normal;
     font-size: 25px;
     font-weight: bold;
@@ -115,7 +113,6 @@ label{
     display: block;
     margin-left: initial;
     }    
-
 /*punto 3--- cambio de color y agregar subrayado cuando el usuario pase por encima con la pseudo-clase :hover*/
 .menu nav a:hover {
     background-color: rgb(3, 45, 59);
@@ -129,44 +126,38 @@ label{
 #mendoza p {
     text-align: center;
     }
-
 /*----------layouts-----------------*/
+footer {
+    width: 40%;
+    height: 40%;
+    display: inline-block;
+    }
+#reservar {
+    width: 60%;
+    height: 50%;
+    float:left;   
+}
 
 .reserva form {
-    text-align : center;
-    }
-.aside {
-    width: 100%;
-    height: 100%;
-       
-    }
-.div-contacto{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    left: 30%;
-    }
+        text-align : center;
+        }  
+
 .div-contacto img{
     height: 10%;
-    width:  10%;
-    display: inline-block;
-    padding-bottom: 0%;
-     }
-.div-links{
+    width:  20%;
+    display: block;
+    margin:auto auto;
+    
+    }
+.div-contacto a {
     width: 100%;
-    height: 100%;
-    position:relative;
-    left: 30%;
-    top:-30%;
-}
-.div-links a{
-    width: 10%;
-    height: 10%;
-    display: inline-block;
+    margin-top: 10px;
+    display: block;
     text-align: center;
     
-        
     }
+   
+  
 /*punto 5.2 agregado sombras y bordes redondeados*/
 .div-form {
     text-align: center;
@@ -234,8 +225,7 @@ header {
 
 .contenedor {
     width:80%;
-    
     margin:0 auto;
     overflow: hidden;
-   
+    border: solid;  
 }
