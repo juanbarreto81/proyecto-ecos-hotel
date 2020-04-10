@@ -236,7 +236,7 @@ header {
     }
 
 .contenedor {
-    width:100%;
+    width:80%;
     max-width: 1000px;
     margin:0 auto;
     overflow: hidden;
