@@ -29,6 +29,8 @@ p  {
 img{
     width: 50%;
     height: 50%;
+    display: block;
+    margin: auto auto;
     }
 h2 {
     font-style: normal;
@@ -127,35 +129,43 @@ label{
     }
 
 /*----------layouts-----------------*/
-header {
-    width: 100%;
-    height: 100%;
-    margin: auto auto;
-    }
+
 .reserva form {
     text-align : center;
     }
 .aside {
-    width: 50%;
-    height: 400px;
-    right: 10px;
+    width: 100%;
+    height: 100%;
     border: solid blue;
-    display: inline-block;    
+      
     }
 .div-contacto{
     width: 100%;
-    height: 50%;
-    border: solid green;
+    height: 100%;
+    position: relative;
+    left: 30%;
     }
 .div-contacto img{
-    height: 200px;
-    width:  200px;
+    height: 10%;
+    width:  10%;
     display: inline-block;
-    }
+    border:solid;
+    padding-bottom: 0%;
+     }
+.div-links{
+    width: 100%;
+    height: 100%;
+    position:relative;
+    left: 30%;
+    top:-30%;
+}
 .div-links a{
-    margin-right: 60px;
-    margin-left: 45px;
-    border: solid yellow;
+    width: 10%;
+    height: 10%;
+    display: inline-block;
+    text-align: center;
+    
+        
     }
 /*punto 5.2 agregado sombras y bordes redondeados*/
 .div-form {
