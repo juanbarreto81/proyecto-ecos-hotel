@@ -13,6 +13,7 @@ body{
     font-style: italic;
     line-height: 1.5;
     font-size: x-large;
+     
     }
 /*punto 3----sacado de puntitos al menu*/
 ul {
@@ -230,7 +231,7 @@ header {
 footer {
     display: inline-block;
 }
-
+/*estilos slider*/
 .slider {
     width: 95%;
     margin: auto;
@@ -281,6 +282,7 @@ footer {
     width: 150px;
     height: 100px;
 }
+/*fin estilos slider*/
 /* estilos del modal */
 .modal {
     display: none;
@@ -342,4 +344,56 @@ footer {
     border-radius: 50%;
     line-height: 25px;
 }
+
+/* fin estilos modal*/
+
+
+/* slider manual*/
+.m-slider {
+    width:800px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-end;
+
+    box-shadow:  0 0 0 15px white,
+                 0 0 0 25px rgb(13, 98, 126),
+                 0 35px 60px;
+    }
+.m-slider img {
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity:0;
+    transition: all 0.7s;
+    }
+.m-slider input {
+    display: none;
+    }
+.m-slider input:checked ~ img {
+    opacity: 1;
+    }
+.m-slider input + label{
+    position: relative;
+    z-index: 50;
+    margin: 20px;
+    
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: white;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.m-slider input:checked + label {
+    background: black;
+    border: 5px solid white;
+} 
 
