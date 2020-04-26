@@ -81,7 +81,8 @@ a   {
 /*************base*******************/
 /* ---------- helpers ------------- */
 .slider img {
-    width: 100%;
+    width: 6z00px ;
+    height: 500px;
     margin:auto;
     display: block;
     overflow: hidden;
@@ -148,10 +149,12 @@ nav ul {
 }
 
 header a img {
-    width: 40%;
+    width: 30%;
     display: block;
+    padding: 0px auto;
     position: relative;
-    margin: 0px auto;
+    margin: -15% auto;
+   
 }
 
 .container ul li a:hover{
@@ -394,7 +397,7 @@ header {
     nav {
         background-color: rgb(151, 221, 171);
         width: 50%;
-        height:50%;	
+        height:600px;	
         border:solid;
         max-width: 100%;
         position: relative;
