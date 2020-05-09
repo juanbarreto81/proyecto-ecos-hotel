@@ -6,6 +6,7 @@
 /*********BASE***************/
 
 body {
+  max-width: 100%;
   width: 1200px;
   margin: 0px auto;
   background-color: #E8EBEB ;
@@ -63,7 +64,8 @@ h1 {
     }
 
 h2 {
-    width: 30%;
+    width:auto;
+    height: auto;
     margin:auto;
     display: block;
     font-style: normal;
@@ -79,16 +81,22 @@ a   {
     font-weight: bold;
     color: rgb(38, 117, 100);
     text-decoration: none;
-    box-sizing: border-box;
+    display: block;
+   
+   
    
     }
-
+img, 
+video {
+        max-width: 100%;
+        margin: 15px auto;
+    }
 /*************base*******************/
 /* ---------- helpers ------------- */
 .slider img {
-    width: 600px ;
-    height: 500px;
-    margin:auto;
+    width: 100%;
+    height: 50%;
+    margin: 0px;
     display: block;
     overflow: hidden;
     background: transparent;
@@ -101,6 +109,7 @@ a   {
 }
 
 .navbar{
+      max-width: 100%;
       position: fixed;
       width:1170px;
       height:100px;
@@ -127,25 +136,21 @@ a   {
     width: 5%;
     height: 5%;
     display: block;
-
     position: relative;
     margin: 10px 5px;
     float: left;
 }
 
 .container nav ul li{
+
     display: inline-block;
+    float: left;
     padding: 10px;
     text-decoration: none;
     margin: 5px auto;
-  
-
 }
 
-
-
 .container nav ul {
-    
     display:block;
     position: relative;
     margin: 10px auto;
@@ -153,7 +158,6 @@ a   {
     height: 78px;
     float:left;
     margin-right:45px;
-   
 }
 
 header a img {
@@ -162,7 +166,6 @@ header a img {
     padding: 0px auto;
     position: relative;
     margin: -15% auto;
-   
 }
 
 .container ul li a:hover{
@@ -171,36 +174,28 @@ header a img {
     border-bottom:solid 3px #0e0f0f;
     font-weight: bold 2px;
     pointer-events: none;
-    
-    
-
 }
-/*punto 4 ----*/
 
 .article-hotel article {
-    width:40%;
-    height: 200px;
+    width:50%;
+    height:40% ;
     display: inline;
         }
-/*max width*/
 
 .mapa iframe{
         position:relative;
         margin:auto;
         }
                  
-
-/*punto 3--- cambio de color y agregar subrayado cuando el usuario pase por encima con la pseudo-clase :hover*/
-
-
 .article-hotel img{
-    width:500px;
+    width: 800px;
     height: 600px;
     display: block;
-    margin:auto;
+    margin: 15px auto;
 }
+
 .article-hotel span{
-    width:100%;
+    width:auto;
     display: block;
     border-radius: 10px;
     border: solid 2px;
@@ -213,10 +208,10 @@ header a img {
    height: 15%;
    display: block;
    margin:auto;
-  
 }
 
 .article-pictograma span{
+  width: auto;
   display: block;
   margin:auto;
   border-radius: 10px;
@@ -227,56 +222,45 @@ header a img {
 
 /*----------layouts-----------------*/
 
-.form {
-    width: 50%;
-    display: block;
-    margin: auto;
-    text-align : center;
-     }  
-.contacto  {
-    display: block;
-    float: left;
-}
+
 .contacto img{
-    height:175px;
-    width: 175px;
+    max-width: 100%;
+    position: relative;
+    width:30%;
+    padding: 15px;
     display: block;
-    margin: 0px 220px;
-    padding:0;
-}
+    border:solid;
+    margin-right: 40px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+    float: left;
+   }
 .contacto a {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    
     display: block;
-    margin:-50px 220px;
     text-align: center;
        
-}
-.aside-2 {
-    
-    display: block;
-    float: left;
-    position: relative;
-}
-.aside-1 {
-   
-    display: block;
-    float: left;
-}
+    }
 
-/*punto 5.2 agregado sombras y bordes redondeados*/
+
+
 .form {
-    width: 75%;
-    background-color: rgb(130, 180, 159);
-    border:solid 1px rgb(158, 181, 189);
+    width: 95%;
+    background-color: rgb(129, 129, 129);
     border-radius: 5px;
     box-shadow: 5px 5px 10px ;
-    }        
-
+    margin: 15px auto;    
+}        
 
 .mapa iframe{
-    display: block;
-    margin: 15px auto;
-    
-}
+ display: block;
+ width: 550px;
+ height: 300px;
+ max-width: 100%;
+    }
 /* ---------- components ------------- */
 
 .btn{
@@ -285,7 +269,7 @@ header a img {
     display: block;
     margin: 10px auto;
     width: 25%;
-    background-color: rgb(152, 184, 169);
+    background-color: rgb(192, 226, 181);
     box-shadow: 5px 5px 5px cornflowerblue;
     border-radius: 10px;
     }
@@ -302,7 +286,7 @@ header a img {
     }
 
 .btn:hover{
-      background-color: rgb(255, 152, 68);
+      background-color: rgb(228, 255, 75);
 
     }
  
@@ -383,15 +367,10 @@ header {
     background-image:url("../images/section_1_hotel.jpg");
     background-repeat: no-repeat;
     background-position: center center;
-    width: 100%;
-    height:100%;
-    display: block;
-    margin: auto;
-    
     }
 
     .container {
-    width:1200px;
+     width:1200px;
     height:auto;
     position:relative;
     margin:0px auto;
@@ -402,7 +381,8 @@ header {
       }
       
     header {
-    width: 1170px;
+    max-width: 100%;
+    width: 100%;
     height:500px;
     margin-top: 150px;
     padding: 15px;
@@ -410,19 +390,17 @@ header {
         }
     nav {
     background-color: rgb(197, 231, 184);
-    width: 50%;
-    height:600px;	
+    width: 23.0769%;
+    height:550px;	
     max-width: 100%;
     position: relative;
     border:solid 1px blue;
     border-radius: 15px;
     }
-    section {	
+    section {
     width:100%;
-    height:100%;
-    margin-top: 15px;
-    margin-bottom:25px;
-    padding: 5px;
+    height:auto;
+    margin: 15px auto;
     display:block;
     float:left;
     position: relative;
@@ -431,20 +409,21 @@ header {
     box-shadow: 5px 5px 10px rgb(40, 41, 40);
     }
     aside {
-	width:570px;
-	height:680px;	
-	margin: 15px auto;
-	/*position: relative;*/
+	width:100%;
+	height:600px;	
+    margin: 15px auto;
+    /*position: relative;*/
 	/*float: right;*/
     position:relative;
 	display: block;
     float: left;
     border: solid 1px black;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 5px 5px 10px rgb(36, 35, 35);
     }
     footer {	
-    height:220px;
+    width: 100%;
+    height:auto;
     margin: 15px auto;
     border-radius: 10px;
     box-shadow: 5px 5px 10px black;
@@ -488,8 +467,132 @@ header {
 
 
 
+@media screen and (max-width:1200px) {
+    body {
+        background-color: chartreuse;
+    }
+    aside {
+        float: left;
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+    .contacto img {
+        width: 150px;
+        padding: 0;
+        float: left;
+        max-width: 100%;
+    }
+   
+}
+
+@media screen and (max-width:992px) {
+    body {
+        background-color: rgb(255, 20, 20);
+    }
+    aside {
+        height: auto;
+    }
+    article.article-hotel
+    .article-pictograma{
+        width: 50%;
+    }
+    .contacto img {
+        margin: 0 10px;
+        width: 100px;
+        max-width: 100%;
+        float: left;
+    }
+    nav {
+        width: 500px;
+    }
+    .contacto a {
+        display: block;
+        margin: auto;
+    }
+ 
+     .contacto img {
+         display: block;
+         margin-left: 15%;
+         width: 150px;
+         height: 130px;
+         max-width: 100%;
+         float: left;
+ 
+ } 
+}
+/*@media screen and (max-width:685px) {
+    header {
+        background-color: rgb(255, 20, 20);
+    }
+}*/
+
+@media screen and (max-width:768px) {
+    header {
+        background-color: rgb(28, 0, 151);
+    }
+
+    .contacto img {
+        margin: 0 10px;
+        width: 100px;
+        max-width: 100%;
+        float: left;
+}
 
 
+
+@media screen and (max-width:576px) {
+body {
+        background-color: cornflowerblue;
+    }
+
+aside {
+       height: 600px;
+   }
+
+   .navbar {
+       height: auto;
+       margin: 5px;
+   }
+   .idioma a img {
+       width: 30px;
+       margin: 0px;
+       padding: 0px;
+       display: block;
+       float: left;
+       
+    }
+
+   .contacto a {
+       display: block;
+       margin: auto;
+   }
+
+    .contacto img {
+        display: block;
+        margin-left: 15%;
+        width: 150px;
+        height: 130px;
+        max-width: 100%;
+        float: left;
+
+} 
+  .btn{
+      display: inline-block;
+      width: auto;
+      margin: 0 auto;
+
+  }
+  .botones {
+      display: block;
+      margin: auto;
+  }
+ 
+
+
+
+
+}
 
 
 
