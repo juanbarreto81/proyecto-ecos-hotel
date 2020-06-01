@@ -1,0 +1,225 @@
+@media screen and (max-width:1200px) {
+ 
+    .navbar ul{
+    width: 90%;    
+    vertical-align: middle;
+    left: 5%;
+    }
+    .navbar {
+    width: 100%;    
+    height:100px;
+    }
+
+    .hamburger-box {
+        display: none;
+    }
+
+    .logo a img {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    vertical-align: middle;
+    } 
+
+    .idioma a img{
+    width: 4%;
+    height: 4%;
+    display: block;
+    position: relative;
+    margin: -5px;
+    }
+
+    .form {
+    width: 80%;
+    display: block;
+    margin: auto;
+    float: none;
+    }
+
+    .mapa iframe{
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+    float: none;
+    }
+
+    .btn {
+    width: 100px;
+    }
+
+    .contacto a img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: left;
+    margin: 10px 10px;
+    }
+    }
+
+@media screen and (max-width:992px) {
+   
+    aside {
+    height: auto;
+    }
+     
+    .logo a img {
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    float: right;
+    display: block;
+    margin-top: 25px;
+    } 
+
+    .hamburger-box {
+    width: 40px;
+    height: 24px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top:40%;
+    left:5%;
+    }
+
+    .navbar {
+    width: 100%;    
+    height:100px;
+    }
+     
+    .navbar ul li {
+    display: none;
+    }
+
+    .btn {
+    margin-top: 15px;
+    width: 100px;
+    }
+
+    form {
+    display: block;
+    margin: auto;
+    }
+     
+    .contacto a img{
+    display: inline-block;
+    width:50%;
+    position: relative;
+    float: left;
+    margin: 0px auto;
+    }
+
+    .contacto {
+        margin-top:-5px;
+    }
+    }
+
+
+@media screen and (max-width:768px) {
+   
+    .navbar ul li a{
+    display: none;
+    }
+
+    .logo a img {
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    float: right;
+    display: block;
+    margin-top: 45px;
+    } 
+
+    .navbar {
+    max-width: 100%;
+    width: 100%;
+    height:100px;
+    }
+   
+    .hamburger-box {
+    width: 40px;
+    height: 24px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top:40%;
+    left:5%;
+    }
+
+     .contacto a img{
+     display: inline-block;
+     width:50%;
+     position: relative;
+     float: left;
+     margin: 0px auto;
+    }
+
+    }
+
+@media screen and (max-width:576px) {
+
+   .logo a  img{
+      max-width: 100%;
+      width: 100%;
+      margin-top: 55px;
+    } 
+
+    aside {
+      display: block;
+    }
+
+    .navbar {
+      width: 100%;
+      height: 100px;
+    }
+
+    .navbar ul li a{
+    display: none;
+    }
+
+    .hamburger-box {
+    width: 40px;
+    height: 24px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top:40%;
+    left:5%;
+    }
+
+    .form {
+    display: block;
+    margin: auto;
+    float: none;
+    }
+
+    .mapa {
+    display: block;
+    margin: auto;
+    float: none;
+    }
+
+    .contacto a img{
+    display: inline-block;
+    width:50%;
+    position: relative;
+    float: left;
+    margin: 0px auto;
+    }
+
+    h1 {
+       box-shadow: none;
+    }
+
+    .btn{
+       display: block;
+       width: auto;
+       margin: 5px 5px;
+       box-shadow: none;
+    }
+
+
+
+
+
+    }
