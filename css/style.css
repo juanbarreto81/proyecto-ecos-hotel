@@ -71,7 +71,7 @@ h1 {
 h2 {
    width:auto;
    height: auto;
-   margin:auto;
+   margin: 10px auto;
    display: block;
    font-style: normal;
    font-size: 50px;
@@ -81,10 +81,10 @@ h2 {
    }   
 
 a  {
-   font-size: 30px;
+   font-size: 35px;
    font-style: italic;
    font-weight: bold;
-   color: rgb(4, 56, 48);
+   color: rgb(0, 3, 3);
    text-decoration: none;
    display: block;
    }
@@ -107,76 +107,88 @@ video {
 
 .slider {
    width: 100%;
+   height: 100%;
    overflow: hidden;
    color: transparent;
    }
 
-.hamburger-box {
-   display: none; 
-   }
+nav .sidenav-trigger {
+  float: left;
+  position: relative;
+  z-index: 1;
+  height: 56px;
+  margin: 0 18px;
+  background-color: #a1c795;
+}
 
-.navbar{
-   max-width: 100%;
-   position: fixed;
-   background-color: rgb(112, 170, 151);
-   width:1170px;
-   height:100px;
-   top:0;
-   margin: auto;
-   z-index:9999; /*sirve para traer adelante el NAV*/
-  }
-.navbar ul {
-   width: 80%;
-   display:block;
-   margin: 5px auto;
-   position: relative;
-   float:left;
-   }
+nav .sidenav-trigger i {
+  height: 56px;
+  line-height: 56px;
+}
+.sidenav {
+    background-color: rgb(192, 231, 169);
+}
+.sidenav li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.nav-wrapper{
+    position: fixed;
+    z-index: 9999999;
+}
 
-.navbar ul li{
-    display: inline-block;
-    position: relative;
-    float: left;
-    margin: 5px 10px;
-   }
+.hide-on-med-and-down{
+    display: block;
+    margin: 0px auto;
+}
+.hide-on-med-and-down li a{
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
 
+}
 .navbar ul li a {
+    color: rgb(4, 39, 39);
     display: block;
     padding: 5px;
     text-decoration: none;
     }
 
-.logo a img {
+
+.brand-logo img {
    width: 80px;
    display: block;
    position:absolute;
    top:-50px;
-   }
+}
+.logo-1 {
+    position: absolute;
+}
 
-.logo a {
-    height: 50px; 
-   }
 
 .logo-2 {
     display: block;
     margin: auto;
-    }
+}
 
 .mb-15 {
 	margin-bottom:15px;
-    }  
+}  
 
 .mt-15 {
-	margin-top:15px;	
-    }
+   margin-top:15px;	
+}
 
 .float-left{
     float: left;
-    } 
+} 
 
 .float-right{
     float: right;
-    }
+}
 
 header a img {
     width: 30%;
@@ -184,16 +196,17 @@ header a img {
     padding: 0px auto;
     position: relative;
     margin: -15% auto;
-    }
+}
+
 
 ul li a:hover{
-    background-color: rgb(246, 255, 204);
-
+    background-color: rgb(221, 236, 170);
+    
 }
 
 .mapa iframe{
     margin:auto;
-    }
+}
                  
 .article-hotel img{
     max-width: 100%;
@@ -201,7 +214,7 @@ ul li a:hover{
     height: 50%;
     display: block;
     margin: 15px auto;
-    }
+}
 
 .article-hotel span{
     width:auto;
@@ -210,7 +223,7 @@ ul li a:hover{
     border: solid 2px;
     box-shadow: 5px 0px 10px rgb(54, 56, 54);
     text-align: left;
-    }
+}
 
 .services img {
     width: 200px;
@@ -219,7 +232,7 @@ ul li a:hover{
     height: auto;
     display: block;
     margin: auto;
-    }
+}
 
 /*----------layouts-----------------*/
 
@@ -253,16 +266,26 @@ ul li a:hover{
     display: block;
     float: left;
     position: relative;
-    background-color: rgb(157, 194, 169);
+    background-color: rgb(170, 167, 167);
     border-radius: 5px;
     box-shadow: 5px 5px 10px ;
     margin: 5px auto; 
     padding: 5px;
     }
-
+label {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
 input {
     width: 100%;
+    color: rgb(0, 0, 0);
+     
     }
+select{
+    border:solid;
+    background-color: linen;
+}
 
 .mapa iframe{
     display: block;
@@ -286,15 +309,13 @@ input {
 
     
 }
-/*
-.btn{
-    margin: 15px auto;
-    display: block;
-    box-shadow: 5px 5px 5px;
-    background-color: rgb(170, 192, 161);
-    border-radius: 0%;
-    }
-*/   
+.btn {
+    width: 150px;
+    height:auto;
+    border-radius: 10px;
+}
+
+
 .btn a{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
@@ -303,8 +324,9 @@ input {
     }
 
 .btn:hover{
-    background-color: rgb(246, 255, 204);
-    }
+    background-color: rgb(247, 248, 197);
+    border-radius: 10px;    
+}
  
 /* Grid system */ 
 .row {
@@ -406,20 +428,19 @@ header {
     max-width: 100%;
     width: 100%;
     height:500px;
-    margin-top: 150px;
+    margin-top: 50px;
     padding: 15px;
     position: relative;
     }
 
-nav {
-    background-color: rgb(197, 231, 184);
-    width: 23.0769%;
-    height:550px;	
-    max-width: 100%;
-    position: relative;
-    border-radius: 15px;
-    }
-
+    nav {color: rgb(20, 92, 105);
+        background-color: #a1c795;
+        width: 100%;
+        height: 56px;
+        line-height: 56px;
+    
+      }
+   
 section {
     width:100%;
     height:auto;

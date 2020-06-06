@@ -6,14 +6,13 @@
     left: 5%;
     }
     .navbar {
-    width: 100%;    
-    height:100px;
+      width: 100%;
+      height: 100px;
     }
-
-    .hamburger-box {
-        display: none;
+    
+    h2 {
+      font-size: 45px;
     }
-
     .logo a img {
     max-width: 100%;
     width: 100%;
@@ -35,7 +34,7 @@
     margin: auto;
     float: none;
     }
-
+   
     .mapa iframe{
     width: 80%;
     display: block;
@@ -43,9 +42,15 @@
     float: none;
     }
 
-    .btn {
-    width: 100px;
+    .btn{
+      display: block;
+      width: 150px;
+      height: auto;
+      margin: 15px auto;
+      box-shadow: none;
     }
+  
+  
 
     .contacto a img{
     display: block;
@@ -59,6 +64,14 @@
 
 @media screen and (max-width:992px) {
    
+  i.material-icons {
+    font-size: 24px;
+      
+  }
+  .nav-wrapper {
+    height: auto;
+  }
+
     aside {
     height: auto;
     }
@@ -71,31 +84,22 @@
     display: block;
     margin-top: 25px;
     } 
-
-    .hamburger-box {
-    width: 40px;
-    height: 24px;
-    display: block;
-    margin: auto;
-    position: absolute;
-    top:40%;
-    left:5%;
+    h2 {
+      font-size: 40px;
     }
+    .btn{
+      display: block;
+      width: 150px;
+      height: auto;
+      margin: 15px auto;
+      box-shadow: none;
+   }
+  
 
-    .navbar {
-    width: 100%;    
-    height:100px;
-    }
-     
-    .navbar ul li {
-    display: none;
-    }
 
-    .btn {
-    margin-top: 15px;
-    width: 100px;
+    p {
+      font-size: 80%;
     }
-
     form {
     display: block;
     margin: auto;
@@ -108,53 +112,81 @@
     float: left;
     margin: 0px auto;
     }
-
-    .contacto {
-        margin-top:-5px;
-    }
+    
     }
 
 
 @media screen and (max-width:768px) {
    
-    .navbar ul li a{
-    display: none;
-    }
-
-    .logo a img {
+  i.material-icons {
+    width: 24px;
+    height: 56px;
+  
+  }
+  .logo a  img{
     max-width: 100%;
     width: 100%;
-    position: relative;
-    float: right;
-    display: block;
-    margin-top: 45px;
-    } 
+    margin-top: 55px;
+  } 
 
-    .navbar {
-    max-width: 100%;
+  aside {
+    display: block;
+  }
+
+  h2 {
+    width: 35px;
+  }
+  .navbar {
     width: 100%;
-    height:100px;
-    }
-   
-    .hamburger-box {
-    width: 40px;
-    height: 24px;
-    display: block;
-    margin: auto;
-    position: absolute;
-    top:40%;
-    left:5%;
-    }
+    height: 100px;
+  }
+  .content a {
+    font-size: 10px;
+    font-weight: bold;
+  }
 
-     .contacto a img{
-     display: inline-block;
-     width:50%;
-     position: relative;
-     float: left;
-     margin: 0px auto;
-    }
+  p{
+    font-size: 60%;
+  }
 
-    }
+
+  .form {
+  display: block;
+  margin: 15px auto;
+
+  }
+
+  .mapa {
+  display: block;
+  margin: auto;
+  float: none;
+  }
+
+  .contacto a img{
+  display: inline-block;
+  width:50%;
+  height:50%;
+  position: relative;
+  float: left;
+  margin: 0px auto;
+  }
+
+  h1 {
+     font-size: 24px;
+     box-shadow: none;
+  }
+
+  .btn{
+     display: block;
+     width: 150px;
+     height: auto;
+     margin: 15px auto;
+     box-shadow: none;
+  }
+  .btn a {
+    font-size: 10px;
+  }
+
 
 @media screen and (max-width:576px) {
 
@@ -167,30 +199,28 @@
     aside {
       display: block;
     }
-
+  
+    h2 {
+      width: 35px;
+    }
     .navbar {
       width: 100%;
       height: 100px;
     }
-
-    .navbar ul li a{
-    display: none;
+    .content a {
+      font-size: 10px;
+      font-weight: bold;
     }
 
-    .hamburger-box {
-    width: 40px;
-    height: 24px;
-    display: block;
-    margin: auto;
-    position: absolute;
-    top:40%;
-    left:5%;
+    p{
+      font-size: 60%;
     }
+  
 
     .form {
     display: block;
-    margin: auto;
-    float: none;
+    margin: 15px auto;
+  
     }
 
     .mapa {
@@ -202,22 +232,27 @@
     .contacto a img{
     display: inline-block;
     width:50%;
+    height:50%;
     position: relative;
     float: left;
     margin: 0px auto;
     }
 
     h1 {
+       font-size: 24px;
        box-shadow: none;
     }
 
     .btn{
        display: block;
-       width: auto;
-       margin: 5px 5px;
+       width: 150px;
+       height: auto;
+       margin: 15px auto;
        box-shadow: none;
     }
-
+    .btn a {
+      font-size: 10px;
+    }
 
 
 
