@@ -96,7 +96,7 @@ video {
 /* ---------- helpers ------------- */
 .slider img {
    width: 90%;
-   height: 75%;
+   height: 85%;
    display: block;
    margin: 0px auto;
    overflow: hidden;
@@ -238,9 +238,6 @@ ul li a:hover{
     height: auto;
     display: block;
     margin: 0px auto;
-}
-.services a {
-    font-size: small;
 }
 
 /*----------layouts-----------------*/
