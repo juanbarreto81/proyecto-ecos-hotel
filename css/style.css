@@ -267,7 +267,7 @@ ul li a:hover{
     }
 
 .form {
-    width: 400px;
+    width: 25%;
     height: 450px;
     display: block;
     float: left;
@@ -301,10 +301,10 @@ select{
 .mapa iframe{
     display: block;
     float: left;
-    width: 700px;
+    width: 75%;
     height: 450px;
     max-width: 100%;
-    margin: 6px;
+    margin: 5px auto;
     }
 
 /* ---------- components ------------- */
@@ -498,7 +498,7 @@ footer {
 
 .content {
     width: 60%;
-    height: auto;
+    height: 100%;
     margin: 20px auto;
     background-color: white;
     color:black;
