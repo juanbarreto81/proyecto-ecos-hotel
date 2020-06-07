@@ -95,7 +95,7 @@ video {
 /*************base*******************/
 /* ---------- helpers ------------- */
 .slider img {
-   width: 75%;
+   width: 90%;
    height: 75%;
    display: block;
    margin: 0px auto;
@@ -216,8 +216,8 @@ ul li a:hover{
                  
 .article-hotel img{
     max-width: 100%;
-    width: 100%;
-    height: 50%;
+    width: 90%;
+    height:50%;
     display: block;
     margin: 15px auto;
 }
@@ -417,6 +417,7 @@ select{
 /*punto 5.1 agregado de imagen de fondo al header*/
 header {
     background-image:url("../images/section_1_hotel.jpg");
+    width:100%;
     background-repeat: no-repeat;
     background-position: center center;
     }
@@ -435,7 +436,7 @@ header {
 header {
     max-width: 100%;
     width: 100%;
-    height:500px;
+    height:600px;
     margin-top: 50px;
     padding: 15px;
     position: relative;
@@ -510,7 +511,7 @@ footer {
 
 .modal_mask:target {
     opacity:1;
-    top:70px;
+    top:60px;
     pointer-events: auto;
     }
 

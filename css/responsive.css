@@ -42,14 +42,14 @@
     float: none;
     }
 
-    .btn {
-      width: 250px;
-      margin:10px auto;
-      height:auto;
-      border-radius: 10px;
+    .btn-success {
+      width:200px;
+      margin: 10px auto;
+      display: block;
+      background-color: rgb(157, 194, 169);
   }
   
-  
+    
 
     .contacto a img{
     display: block;
@@ -86,17 +86,15 @@
     h2 {
       font-size: 40px;
     }
-    .btn {
-      width: 250px;
-      margin:10px auto;
-      height:auto;
-      border-radius: 10px;
+    .btn-success {
+      width:200px;
+      margin: 10px auto;
+      display: block;
+      background-color: rgb(157, 194, 169);
   }
   
   
-
-
-    p {
+      p {
       font-size: 80%;
     }
     form {
@@ -173,13 +171,13 @@
      box-shadow: none;
   }
 
-  .btn{
-     display: block;
-     width: 150px;
-     height: auto;
-     margin: 15px auto;
-     box-shadow: none;
-  }
+  .btn-success {
+    width:200px;
+    margin: 10px auto;
+    display: block;
+    background-color: rgb(157, 194, 169);
+}
+
   .btn a {
     font-size: 10px;
   }
@@ -239,13 +237,13 @@
        box-shadow: none;
     }
 
-    .btn{
-       display: block;
-       width: 150px;
-       height: auto;
-       margin: 15px auto;
-       box-shadow: none;
-    }
+    .btn-success {
+      width:200px;
+      margin: 10px auto;
+      display: block;
+      background-color: rgb(157, 194, 169);
+  }
+  
     .btn a {
       font-size: 10px;
     }
