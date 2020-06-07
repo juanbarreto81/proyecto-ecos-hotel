@@ -69,9 +69,7 @@ h1 {
     }
 
 h2 {
-   width:auto;
-   height: auto;
-   margin: 10px auto;
+   margin: 5px auto;
    display: block;
    font-style: normal;
    font-size: 50px;
@@ -119,37 +117,45 @@ nav .sidenav-trigger {
   height: 56px;
   margin: 0 18px;
   background-color: #a1c795;
-}
+  }
 
 nav .sidenav-trigger i {
+  background-color: #a1c795;
   height: 56px;
   line-height: 56px;
-}
+  }
+
 .sidenav {
-    background-color: rgb(192, 231, 169);
-}
+    background-color: rgb(177, 184, 172);
+    z-index: 9999;
+  }
+
+   
 .sidenav li a {
     color: black;
+    font-size: 25px;
     font-weight: bold;
     text-decoration: underline;
-}
+  } 
+
 .nav-wrapper{
-    position: fixed;
+   position: fixed;
     z-index: 9999999;
-}
+  }
 
 .hide-on-med-and-down{
     display: block;
     margin: 0px auto;
 }
+
 .hide-on-med-and-down li a{
     font-size: 25px;
     text-align: center;
     color: black;
     text-decoration: underline;
     font-weight: bold;
-
 }
+
 .navbar ul li a {
     color: rgb(4, 39, 39);
     display: block;
@@ -157,17 +163,16 @@ nav .sidenav-trigger i {
     text-decoration: none;
     }
 
-
 .brand-logo img {
    width: 80px;
    display: block;
    position:absolute;
    top:-50px;
 }
+
 .logo-1 {
     position: absolute;
 }
-
 
 .logo-2 {
     display: block;
@@ -198,12 +203,13 @@ header a img {
     margin: -15% auto;
 }
 
-
 ul li a:hover{
-    background-color: rgb(221, 236, 170);
+    background-color: lightyellow;
+}  
+.sidenav li a:hover {
+    background-color: lightyellow;
     
 }
-
 .mapa iframe{
     margin:auto;
 }
@@ -272,11 +278,13 @@ ul li a:hover{
     margin: 5px auto; 
     padding: 5px;
     }
+
 label {
     color: black;
     text-decoration: underline;
     font-weight: bold;
-}
+    }
+
 input {
     width: 100%;
     color: rgb(0, 0, 0);
@@ -285,7 +293,7 @@ input {
 select{
     border:solid;
     background-color: linen;
-}
+   }
 
 .mapa iframe{
     display: block;
@@ -295,6 +303,7 @@ select{
     max-width: 100%;
     margin: 6px;
     }
+
 /* ---------- components ------------- */
 .btn-group-vertical{
     display: block;
@@ -306,15 +315,14 @@ select{
     display: block;
     width: 40%;
     background-color: rgb(157, 194, 169);
-
-    
 }
+
 .btn {
-    width: 150px;
+    width: 250px;
+    margin:10px auto;
     height:auto;
     border-radius: 10px;
 }
-
 
 .btn a{
     font-family: 'Josefin Sans', sans-serif;
@@ -324,7 +332,7 @@ select{
     }
 
 .btn:hover{
-    background-color: rgb(247, 248, 197);
+    background-color: lightyellow;
     border-radius: 10px;    
 }
  
@@ -433,13 +441,13 @@ header {
     position: relative;
     }
 
-    nav {color: rgb(20, 92, 105);
-        background-color: #a1c795;
-        width: 100%;
-        height: 56px;
-        line-height: 56px;
-    
-      }
+nav {
+ 
+    background-color: #a1c795;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    }
    
 section {
     width:100%;
@@ -491,7 +499,8 @@ footer {
     }
 
 .content {
-    width: 60%;
+    width: 50%;
+    height: 70%;
     margin: 30px auto;
     background-color: white;
     color:black;
@@ -501,7 +510,7 @@ footer {
 
 .modal_mask:target {
     opacity:1;
-    top:0px;
+    top:75px;
     pointer-events: auto;
     }
 
@@ -510,191 +519,8 @@ footer {
     text-decoration: underline;
     font-weight: bold;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-estilos slider
-.slider {
-    width: 95%;
-    margin: auto;
-}
-.slider ul{
-    display: flex;
-    padding: 0;
-    width: 400%;
-    animation: cambio 20s infinite alternate linear;
-    animation-timing-function: ease-out;
-}
-
-.slider li {
-    width: 80%;
-    list-style: none;
-}
-.slider img{
-    width: 80%;
-}
-@keyframes cambio {
-    0%  {margin-left: 0;}
-    20% {margin-left: 0;}
-
-    25% {margin-left: -100%;}
-    45% {margin-left: -100%;}
-    
-    50% {margin-left: -200%;}
-    70% {margin-left: -200%;}
-
-    75% {margin-left: -300%;}
-    100% {margin-left: -300%;}
-}
-.galeria {
-    width: 90%;
-    margin: auto;
-    list-style: none;
-    padding: 50px;
-    box-sizing: border-box;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.galeria li{
-    margin: 5px;
-}
-.galeria img {
-    width: 150px;
-    height: 100px;
-}
-         fin estilos slider
-
-*/
-
-
-/* estilos del modal 
-.modal {
-    display: none;
-}
-.modal:target{
-    display: block;
-    position: fixed;
-    background-color: rgb(0, 0, 0, 0.7);
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-}
-
-.modal h3{
-    color: blue;
-    font-size: 30px;
-    text-align: center;
-    margin: 15px 0;
-    }
-
-.imagen {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.imagen a {
-    color: orange;
-    font-size: 40px;
-    text-decoration: none;
-    margin: 0 10px
-}
-.imagen a:nth-child(2){
-    margin: 0;
-    height: 100%;
-    flex-shrink: 2;
-}
-
-.imagen img {
-    width: 500px;
-    height: 100%;
-    max-width: 100%;
-    border: 10px solid brown;
-    box-sizing: border-box;
-}
 .cerrar {
-    display: block;
-    background-color: chartreuse;
-    width: 25px;
-    height: 25px;
-    margin: 20px auto;
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-    padding: 5px;
-    border-radius: 50%;
-    line-height: 25px;
+    color: rgb(12, 133, 214);
+    text-decoration: underline;
 }
 
-/* fin estilos modal*/
-
-/*
- slider manual
-.m-slider {
-    width:800px;
-    height: 600px;
-    margin: auto;
-    position: relative;
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-
-    box-shadow:  0 0 0 15px white,
-                 0 0 0 25px rgb(13, 98, 126),
-                 0 35px 60px;
-    }
-.m-slider img {
-    position: absolute;
-    left:0;
-    top:0;
-    width: 100%;
-    height: 100%;
-    opacity:0;
-    transition: all 0.7s;
-    }
-.m-slider input {
-    display: none;
-    }
-.m-slider input:checked ~ img {
-    opacity: 1;
-    }
-.m-slider input + label{
-    position: relative;
-    z-index: 50;
-    margin: 20px;
-    display: block;
-    width: 18px;
-    height: 18px;
-    background: white;
-    border-radius: 50%;
-    border: 5px solid black;
-}
-.m-slider input:checked + label {
-    background: black;
-    border: 5px solid white;
-} 
-*/
