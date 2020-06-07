@@ -317,28 +317,23 @@ select{
     }
 
 .btn-success {
-    margin: 5px auto;
+    width:200px;
+    margin: 10px auto;
     display: block;
     background-color: rgb(157, 194, 169);
 }
 
-.btn {
-    width: 250px;
-    margin:10px auto;
-    height:auto;
-    border-radius: 10px;
-}
 
 .btn a{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
-    font-size: large;
+    font-size: small;
     text-decoration: none;
     }
 
 .btn:hover{
     background-color: lightyellow;
-    border-radius: 10px;    
+      
 }
  
 /* Grid system */ 
