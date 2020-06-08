@@ -206,9 +206,9 @@
     .contacto ul li a img{
       max-width: 100%;
       width: 25%;
-      display: block;
+      display:inline-block;
       position: relative;
-      margin: 0px auto;
+      margin: auto;
   
     }
     .navbar {
