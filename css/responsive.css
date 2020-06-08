@@ -228,6 +228,7 @@
     .form {
     display: block;
     margin: 10px auto;
+    padding: 10px;
     height: 450px;
     width: 350px;
   
