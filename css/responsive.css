@@ -256,9 +256,9 @@
     }
 
     .content {
-      width: 50%;
-      height: 50%;
-      margin: 20px auto;
+      width: auto;
+      height: auto;
+      margin: 5px ;
       background-color: white;
       color:black;
       border: solid 2px black;

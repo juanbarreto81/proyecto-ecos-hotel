@@ -127,9 +127,10 @@ nav .sidenav-trigger i {
 
 .sidenav {
   background-color: #a1c795;
+  opacity: 0.9;
   z-index: 9999;
   height: auto;
-  top:60px;
+  top:62px;
   left: 20px;
   }
 
@@ -283,7 +284,8 @@ p {
   display: block;
   float: left;
   position: relative;
-  background-color: rgb(121, 123, 124);
+  background-color: rgb(137, 138, 139);
+  opacity: 0.9;
   border-radius: 5px;
   box-shadow: 5px 5px 10px ;
   margin: 5px auto; 
