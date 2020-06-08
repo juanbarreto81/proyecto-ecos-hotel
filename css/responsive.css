@@ -204,10 +204,11 @@
     }
 
     .contacto ul li a img{
-      width: 30%;
-      height: 10%;
+      max-width: 100%;
+      width: 25%;
       display: block;
-      margin: 0px 45px;
+      position: relative;
+      margin: 0px auto;
   
     }
     .navbar {
