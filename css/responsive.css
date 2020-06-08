@@ -49,16 +49,6 @@
       background-color: rgb(157, 194, 169);
   }
   
-    
-
-    .contacto a img{
-    display: block;
-    width: 200px;
-    height: 200px;
-    position: relative;
-    float: left;
-    margin: 10px 10px;
-    }
     }
 
 @media screen and (max-width:992px) {
@@ -67,10 +57,25 @@
     font-size: 24px;
       
   }
+  .contacto ul li a img{
+    width: 20%;
+    height: 10%;
+    display: block;
+    margin: 0px 5px;
+  
+  }
+
+
   .nav-wrapper {
     height: auto;
   }
-
+  .form {
+    display: block;
+    margin: 10px auto;
+    height: 450px;
+    width: 400px;
+  
+    }
     aside {
     height: auto;
     }
@@ -94,22 +99,14 @@
   }
   
   
-      p {
-      font-size: 80%;
-    }
     form {
     display: block;
     margin: auto;
     }
      
-    .contacto a img{
-    display: inline-block;
-    width:50%;
-    position: relative;
-    float: left;
-    margin: 0px auto;
-    }
-    
+ 
+  
+
     }
 
 
@@ -120,6 +117,14 @@
     height: 56px;
   
   }
+  .contacto ul li a img{
+    width: 20%;
+    height: 10%;
+    display: block;
+    margin: 0px 5px;
+
+  }
+
   .logo a  img{
     max-width: 100%;
     width: 100%;
@@ -146,26 +151,18 @@
 
 
   .form {
-  display: block;
-  margin: 10px auto;
-  width: 470px;
-
-  }
+    display: block;
+    margin: 10px auto;
+    height: 450px;
+    width: 380px;
+  
+    }
 
   .mapa {
   display: block;
   margin: auto;
   float: none;
   width: auto;
-  }
-
-  .contacto a img{
-  display: inline-block;
-  width:50%;
-  height:50%;
-  position: relative;
-  float: left;
-  margin: 0px auto;
   }
 
   h1 {
@@ -205,8 +202,13 @@
     aside {
       display: block;
     }
+
+    .contacto ul li a img{
+      width: 30%;
+      height: 10%;
+      display: block;
+      margin: 0px 45px;
   
-   
     }
     .navbar {
       width: 100%;
@@ -226,6 +228,7 @@
     display: block;
     margin: 10px auto;
     height: 450px;
+    width: 350px;
   
     }
 
@@ -235,16 +238,7 @@
     float: none;
     }
 
-    .contacto a img{
-    display: inline-block;
-    width:50%;
-    height:50%;
-    position: relative;
-    float: left;
-    margin: 0px auto;
-    }
-
-    h1 {
+   h1 {
        font-size: 24px;
        box-shadow: none;
     }
@@ -269,7 +263,7 @@
       border: solid 2px black;
       text-align: center;
       }   
-  
-
+   
+    }
 
     }

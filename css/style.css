@@ -242,22 +242,22 @@ ul li a:hover{
 
 /*----------layouts-----------------*/
 
+.contacto {
+display: block;
+float: left;    
+margin: 5px auto;
+}
+.direccion {
+width: 100%;
 
-.contacto a img{
+}
+
+p {  
+    font-size: 35px;
     display: block;
-    width: 25%;
     float: left;
-    position: relative;
-    }
-
-.logo-2 {
-    width: 50%;
-    position: absolute;
-    left: 25%;
-    top:10%;
-    z-index: 999999999999999999;
-   }
-
+    margin: auto;
+}
 .contacto a {
     max-width: 100%;
     position: relative;
@@ -265,9 +265,17 @@ ul li a:hover{
     display: block;
     text-align: center;
     }
+.contacto ul li a img{
+    display:block;
+    float: left;
+    width:20%;
+    margin: 10px 25px;
+    height: 10%;
+
+}
 
 .form {
-    width: 25%;
+    width: 40%;
     height: 450px;
     display: block;
     float: left;
@@ -301,7 +309,7 @@ select{
 .mapa iframe{
     display: block;
     float: left;
-    width: 75%;
+    width: 60%;
     height: 450px;
     max-width: 100%;
     margin: 5px auto;
@@ -450,7 +458,7 @@ nav {
 section {
     width:100%;
     height:auto;
-    margin: 15px auto;
+    margin: 10px auto;
     display:block;
     float:left;
     position: relative;
@@ -462,7 +470,7 @@ section {
 aside {
 	width:100%;
 	height:auto;	
-    margin: 15px auto;
+    margin: 10px auto;
     /*position: relative;*/
 	/*float: right;*/
     position:relative;
@@ -475,8 +483,7 @@ aside {
 
 footer {	
     width: 100%;
-    height:auto;
-    margin: 15px auto;
+    margin:10px auto;
     border-radius: 10px;
     box-shadow: 5px 5px 10px black;
     border:solid 1px black;
